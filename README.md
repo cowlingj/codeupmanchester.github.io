@@ -18,11 +18,11 @@ your work will  be lost.
 
 ## Using Jekyll
 Jekyll is a RubyGem that runs on any machine, but has a few prerequisites.
-* First, you'll need Ruby: https://rubyinstaller.org/
-* Then RubyGems: https://rubygems.org/pages/download
-* Then you should be able to install Jekyll from your command line:
-** Type `gem install bundler jekyll`
-** Read more at https://jekyllrb.com/
+First, you'll need Ruby: https://rubyinstaller.org/
+Then RubyGems: https://rubygems.org/pages/download
+Then you should be able to install Jekyll from your command line:
+* Type `gem install bundler jekyll`
+* If you have trouble, read more at https://jekyllrb.com/
 
 Once you have Jekyll on your local machine, change directory into the repository folder
 and run `jekyll build`.
