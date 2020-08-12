@@ -28,3 +28,13 @@ Then you should be able to install Jekyll from your command line:
 
 Once you have Jekyll on your local machine, change directory into the repository folder
 and run `jekyll build`.
+
+## Using Docker
+
+There is a development dockerfile available (`.Dockerfile`) which runs the website on port 80,
+supporting hot reloading by mounting the project directory to `/srv/app`
+(e.g. `docker run --volume $PWD:/srv/app ...`).
+
+To run (with hot reloading enabled) use the following commands:
+* `docker build --tag codeup .` to build the image
+* `docker run --port 8080:80 --volume $PWD:/srv/app codeup` to run the image
